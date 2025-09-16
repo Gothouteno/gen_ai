@@ -410,7 +410,7 @@ class: items-center
 <div class="pl-8 flex flex-col items-center justify-center h-full">
   <div class="w-full mb-12 mt-10">
     <div class="p-2 rounded-xl shadow-xl">
-    <ClickableImage src="/resized.gif"
+    <ClickableImage src="./resized.gif"
       class="rounded-lg w-full h-50 object-cover" alt="" />
     </div>
   </div>
@@ -588,14 +588,14 @@ v-motion
 
 <div class="w-full">
 <div class="p-2 rounded-xl shadow-xl">
-<ClickableImage src="/sft-rft-cropped.gif"
+<ClickableImage src="./sft-rft-cropped.gif"
       class="rounded-lg w-full h-28 object-cover" alt="" />
 </div>
 </div>
 
 <div class="w-full">
 <div class="p-2 rounded-xl shadow-xl">
-<ClickableImage src="/rlhf.gif" class="rounded-lg w-full h-50 object-cover" alt="" />
+<ClickableImage src="./rlhf.gif" class="rounded-lg w-full h-50 object-cover" alt="" />
 </div>
 </div>
 
@@ -719,7 +719,7 @@ class: items-center
 
 <div class="w-full mb-4">
 <div class="p-2 rounded-xl shadow-xl">
-<ClickableImage src="/peft.gif"
+<ClickableImage src="./peft.gif"
       class="rounded-lg w-full h-50 object-cover" alt="" />
 </div>
 </div>
