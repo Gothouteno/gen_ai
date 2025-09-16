@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.3.0",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "latest"
+  },
+  "devDependencies": {
+    "@carbon/icons-react": "^11.67.0",
+    "playwright-chromium": "^1.50.1",
+    "typescript": "^5.9.2"
+  }
+}
