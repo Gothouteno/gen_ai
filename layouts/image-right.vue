@@ -17,7 +17,7 @@ const props = defineProps({
   },
 })
 const imageContainerStyle = computed(() => ({
-  backgroundImage: `url(${props.image})`,
+  backgroundImage: props.image ? `url(${props.image.startsWith('/') ? '.' + props.image : props.image})` : 'none',
   backgroundPosition: 'center',
   backgroundSize: 'contain', 
 }))

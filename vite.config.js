@@ -1,11 +1,13 @@
 export default {
+    base: './',
     server: {
       hmr: {
         overlay: false 
       }
     },
     build: {
-      outDir: 'dist' 
+      outDir: 'dist',
+      assetsDir: 'assets'
     },
     features: {
       sync: true,

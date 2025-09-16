@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: /BackgroundWelcome.jpeg
+background: ./BackgroundWelcome.jpeg
 class: 'text-center'
 highlighter: shiki
 lineNumbers: false
